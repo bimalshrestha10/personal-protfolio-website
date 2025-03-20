@@ -12,7 +12,7 @@ const services = [
   {
     icon: <Youtube className="text-highlight" size={28} />,
     title: 'YouTube Content',
-    description: 'Engaging edits optimized for YouTube's algorithm with perfect pacing and retention hooks.',
+    description: 'Engaging edits optimized for YouTube\'s algorithm with perfect pacing and retention hooks.',
   },
   {
     icon: <Briefcase className="text-highlight" size={28} />,
