@@ -1,6 +1,8 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { Play } from 'lucide-react';
+import { AspectRatio } from './ui/aspect-ratio';
+import { Avatar } from './ui/avatar';
 
 const Hero = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -49,6 +51,19 @@ const Hero = () => {
       
       {/* Content */}
       <div className="container relative z-20 px-6 md:px-12 flex flex-col items-center text-center text-white">
+        {/* Profile image */}
+        <div className="mb-6">
+          <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-highlight/70 shadow-lg shadow-highlight/20">
+            <AspectRatio ratio={1/1}>
+              <img 
+                src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=800&auto=format&fit=crop" 
+                alt="Profile photo"
+                className="object-cover w-full h-full"
+              />
+            </AspectRatio>
+          </div>
+        </div>
+
         <div className="typing-container mb-6">
           <h2 className="typing-text text-2xl md:text-3xl font-heading tracking-wide">
             Video Editor & Visual Storyteller
@@ -59,8 +74,12 @@ const Hero = () => {
           Crafting Stories, <span className="text-highlight">One Frame</span> at a Time
         </h1>
         
-        <p className={`text-xl md:text-2xl max-w-2xl mb-12 text-white/80 transition-opacity duration-700 ${isTypingComplete ? 'opacity-100' : 'opacity-0'}`}>
+        <p className={`text-xl md:text-2xl max-w-2xl mb-8 text-white/80 transition-opacity duration-700 ${isTypingComplete ? 'opacity-100' : 'opacity-0'}`}>
           I transform raw footage into compelling narratives that captivate audiences and deliver your message with impact.
+        </p>
+
+        <p className={`text-lg max-w-xl mb-12 text-white/90 transition-opacity duration-700 ${isTypingComplete ? 'opacity-100 delay-300' : 'opacity-0'}`}>
+          With over 7 years of experience in commercial and creative video editing, I bring technical expertise and artistic vision to every project.
         </p>
         
         <div className={`flex flex-col sm:flex-row gap-4 transition-opacity duration-700 ${isTypingComplete ? 'opacity-100' : 'opacity-0'}`}>
