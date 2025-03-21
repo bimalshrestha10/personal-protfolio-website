@@ -44,7 +44,7 @@ const Hero = () => {
           onLoadedData={handleVideoLoaded}
           className={`w-full h-full object-cover transition-opacity duration-1000 ${isVideoLoaded ? 'opacity-100' : 'opacity-0'}`}
         >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4" type="video/mp4" />
+          <source src="/bg2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
@@ -57,7 +57,7 @@ const Hero = () => {
             <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden border-4 border-highlight/70 shadow-lg shadow-highlight/20">
               <AspectRatio ratio={1/1}>
                 <img 
-                  src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=800&auto=format&fit=crop" 
+                  src="/pp.png" 
                   alt="Profile photo"
                   className="object-cover w-full h-full"
                 />
@@ -110,7 +110,7 @@ const Hero = () => {
             <div className={`transition-opacity duration-700 ${isTypingComplete ? 'opacity-100' : 'opacity-0'}`}>
               <p className="text-white/70 mb-2">Experience</p>
               <div className="flex items-end gap-1">
-                <span className="text-3xl md:text-4xl font-bold">7+</span>
+                <span className="text-3xl md:text-4xl font-bold">5+</span>
                 <span className="text-white/70 mb-1">years</span>
               </div>
             </div>

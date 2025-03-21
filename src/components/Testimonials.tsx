@@ -56,23 +56,23 @@ const testimonials = [
 const companyLogos = [
   {
     name: 'Company 1',
-    logo: 'https://i.imgur.com/Qcd0AJF.png',
+    logo: '/logo/wommarketing_logo.jpg',
   },
   {
     name: 'Company 2',
-    logo: 'https://i.imgur.com/IG0lTsV.png',
+    logo: '/logo/biiyond_logo.jpg',
   },
   {
     name: 'Company 3',
-    logo: 'https://i.imgur.com/DfZY2os.png',
+    logo: '/logo/wommarketing_logo.jpg',
   },
   {
     name: 'Company 4',
-    logo: 'https://i.imgur.com/UD2hBWT.png',
+    logo: '/logo/biiyond_logo.jpg',
   },
   {
     name: 'Company 5',
-    logo: 'https://i.imgur.com/2YfbpLy.png',
+    logo: '/logo/wommarketing_logo.jpg',
   },
 ];
 

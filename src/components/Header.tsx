@@ -29,7 +29,7 @@ const Header = () => {
           to="/" 
           className="text-2xl font-bold font-heading tracking-tighter hover:opacity-90 transition-opacity"
         >
-          FRAME<span className="text-highlight">CRAFT</span>
+          BIMAL<span className="text-highlight">SHRESTHA</span>
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">

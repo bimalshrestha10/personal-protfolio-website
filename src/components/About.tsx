@@ -67,7 +67,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row gap-8 mb-8 items-start">
               <div className="w-full md:w-1/3 aspect-square overflow-hidden rounded-2xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=800&auto=format&fit=crop" 
+                  src="/pp.png" 
                   alt="Professional headshot"
                   className="w-full h-full object-cover"
                 />
@@ -76,7 +76,7 @@ const About = () => {
               <div className="w-full md:w-2/3">
                 <h3 className="text-2xl font-semibold mb-3">Passionate Video Editor & Visual Storyteller</h3>
                 <p className="text-muted-foreground mb-4">
-                  With over 7 years of experience, I've developed a keen eye for pacing, transitions, and visual flow
+                  With over 5 years of experience, I've developed a keen eye for pacing, transitions, and visual flow
                   that keeps viewers engaged and delivers messages effectively.
                 </p>
                 <p className="text-muted-foreground mb-4">
@@ -200,27 +200,27 @@ const About = () => {
               <div className="flex flex-wrap gap-4">
                 <div className="bg-secondary/50 text-muted-foreground hover:text-foreground px-3 py-2 rounded-lg text-sm flex items-center gap-2 transition-colors">
                   <Link size={14} />
-                  <span>Netflix</span>
+                  <span>Classic Diamond</span>
                 </div>
                 <div className="bg-secondary/50 text-muted-foreground hover:text-foreground px-3 py-2 rounded-lg text-sm flex items-center gap-2 transition-colors">
                   <Link size={14} />
-                  <span>Adidas</span>
+                  <span>Chitrakala</span>
                 </div>
                 <div className="bg-secondary/50 text-muted-foreground hover:text-foreground px-3 py-2 rounded-lg text-sm flex items-center gap-2 transition-colors">
                   <Link size={14} />
-                  <span>Sony</span>
+                  <span>Medanta Ayurved Health Home</span>
                 </div>
                 <div className="bg-secondary/50 text-muted-foreground hover:text-foreground px-3 py-2 rounded-lg text-sm flex items-center gap-2 transition-colors">
                   <Link size={14} />
-                  <span>Red Bull</span>
+                  <span>Samacharpati</span>
                 </div>
                 <div className="bg-secondary/50 text-muted-foreground hover:text-foreground px-3 py-2 rounded-lg text-sm flex items-center gap-2 transition-colors">
                   <Link size={14} />
-                  <span>Samsung</span>
+                  <span>Vape Durbar</span>
                 </div>
                 <div className="bg-secondary/50 text-muted-foreground hover:text-foreground px-3 py-2 rounded-lg text-sm flex items-center gap-2 transition-colors">
                   <Link size={14} />
-                  <span>Spotify</span>
+                  <span>Old Town Foods</span>
                 </div>
               </div>
             </div>

@@ -15,12 +15,12 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between gap-8 mb-12">
           <div className="md:w-1/3">
-            <h2 className="text-2xl font-bold mb-4">FRAME<span className="text-highlight">CRAFT</span></h2>
+            <h2 className="text-2xl font-bold mb-4">BIMAL<span className="text-highlight">SHRESTHA</span></h2>
             <p className="text-muted-foreground mb-4">
               Professional video editing services that transform your footage into compelling stories.
             </p>
             <p className="text-sm">
-              &copy; {new Date().getFullYear()} FrameCraft. All rights reserved.
+              &copy; {new Date().getFullYear()} Bimal Shrestha. All rights reserved.
             </p>
           </div>
           
@@ -76,12 +76,12 @@ const Footer = () => {
             <div>
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2">
-                <li className="text-muted-foreground">Los Angeles, California</li>
+                <li className="text-muted-foreground">Kathmandu, Nepal</li>
                 <li>
-                  <a href="mailto:hello@framecraft.com" className="text-muted-foreground hover:text-highlight transition-colors">hello@framecraft.com</a>
+                  <a href="mailto:hello@framecraft.com" className="text-muted-foreground hover:text-highlight transition-colors">shresthabimal11@gmail.com</a>
                 </li>
                 <li>
-                  <a href="tel:+15551234567" className="text-muted-foreground hover:text-highlight transition-colors">+1 (555) 123-4567</a>
+                  <a href="tel:+15551234567" className="text-muted-foreground hover:text-highlight transition-colors">+977 9865356478</a>
                 </li>
               </ul>
             </div>
