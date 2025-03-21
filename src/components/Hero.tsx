@@ -44,7 +44,7 @@ const Hero = () => {
           onLoadedData={handleVideoLoaded}
           className={`w-full h-full object-cover transition-opacity duration-1000 ${isVideoLoaded ? 'opacity-100' : 'opacity-0'}`}
         >
-          <source src="/bg2.mp4" type="video/mp4" />
+          <source src="/bg3.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
