@@ -56,23 +56,23 @@ const testimonials = [
 const companyLogos = [
   {
     name: 'Company 1',
-    logo: '/logo/wommarketing_logo.jpg',
+    logo: '/logo/101infotech_logo.jpg',
   },
   {
     name: 'Company 2',
-    logo: '/logo/biiyond_logo.jpg',
+    logo: '/logo/wommarketing_logo.jpg',
   },
   {
     name: 'Company 3',
-    logo: '/logo/wommarketing_logo.jpg',
-  },
-  {
-    name: 'Company 4',
     logo: '/logo/biiyond_logo.jpg',
   },
   {
+    name: 'Company 4',
+    logo: '/logo/classicLogo.jpg',
+  },
+  {
     name: 'Company 5',
-    logo: '/logo/wommarketing_logo.jpg',
+    logo: '/logo/chitrakala.jpg',
   },
 ];
 

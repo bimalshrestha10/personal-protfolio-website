@@ -6,39 +6,35 @@ import { Calendar, Award, Briefcase, FileText, Link } from 'lucide-react';
 // Skills data
 const skills = [
   { name: 'Adobe Premiere Pro', proficiency: 95 },
-  { name: 'After Effects', proficiency: 90 },
-  { name: 'DaVinci Resolve', proficiency: 85 },
-  { name: 'Final Cut Pro', proficiency: 80 },
-  { name: 'Motion Graphics', proficiency: 75 },
-  { name: 'Color Grading', proficiency: 85 },
-  { name: 'Audio Editing', proficiency: 80 },
-  { name: 'Storytelling', proficiency: 90 },
+  { name: 'Adobe After Effects', proficiency: 95 },
+  { name: 'Adobe Illustrator', proficiency: 90 },
+  { name: 'Adobe Photoshop', proficiency: 90 },
 ];
 
 // Timeline data
 const timeline = [
   {
-    year: '2023',
-    title: 'Lead Video Editor',
-    company: 'Creative Media Studios',
-    description: 'Led a team of editors creating content for major brands, specializing in commercial and corporate videos.',
+    year: '2025 - Present',
+    title: 'Video Editor',
+    company: 'Biiyond Productions',
+    description: 'Created content for major brands, specializing in commercial and corporate videos.',
   },
   {
-    year: '2021',
-    title: 'Senior Video Editor',
-    company: 'Digital Storytellers',
+    year: '2024 - 2025',
+    title: 'Video Production Manager',
+    company: 'WoM Marketing',
     description: 'Edited documentary and branded content for streaming platforms and social media campaigns.',
   },
   {
-    year: '2019',
+    year: '2021 - 2024',
     title: 'Video Editor',
-    company: 'Viral Content Agency',
+    company: 'WoM Marketing',
     description: 'Created engaging content for social media platforms, focusing on short-form viral videos.',
   },
   {
-    year: '2017',
+    year: '2020 - 2021',
     title: 'Junior Editor',
-    company: 'StartUp Productions',
+    company: '101 Infotech',
     description: 'Started career editing promotional videos and assisting senior editors with various projects.',
   },
 ];
@@ -91,7 +87,7 @@ const About = () => {
                     Contact Me
                   </a>
                   <a 
-                    href="#"
+                    href="/downloads/portfolio_showcase.pdf"
                     className="btn-secondary flex items-center gap-2"
                   >
                     <FileText size={18} />
