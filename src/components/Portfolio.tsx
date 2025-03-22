@@ -44,7 +44,7 @@ const portfolioItems = [
   {
     id: 5,
     title: 'Reels',
-    category: 'Reels',
+    category: 'reels',
     thumbnail: 'https://i.ytimg.com/vi/diW5U63u9fs/oar2.jpg?sqp=-oaymwEoCMAEENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDh63tN_llIubWHwJbMxOYvuqJgNA',
     videoUrl: '/videos/Reel.mp4',
     client: 'Marketing Funnel',
@@ -100,7 +100,7 @@ const Portfolio = () => {
         
         {/* Filter tabs */}
         <div className="flex flex-wrap justify-center gap-2 mb-12">
-          {['all', 'commercial', 'cinematic', 'motion design', '2d animation', 'logo animation', 'reels', 'green screen', ].map((filter) => (
+          {['all', 'commercial', 'cinematic', 'motion design', '2d animation', 'logo animation', 'reels', ].map((filter) => (
             <button
               key={filter}
               onClick={() => setActiveFilter(filter)}
