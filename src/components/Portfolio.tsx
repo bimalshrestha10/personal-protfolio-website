@@ -7,58 +7,59 @@ import { X, Play, ExternalLink } from 'lucide-react';
 const portfolioItems = [
   {
     id: 1,
-    title: 'Brand Commercial',
+    title: 'Commercials',
     category: 'commercial',
-    thumbnail: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1600&auto=format&fit=crop',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-top-aerial-shot-of-seashore-with-rocks-1090-large.mp4',
-    client: 'Luxury Brand',
-    description: 'A cinematic commercial for a luxury lifestyle brand highlighting their new collection.',
+    thumbnail: '/thumbnails/netrascale.jpg',
+    videoUrl: '/videos/0. Netrascale.mp4',
+    client: 'Netrascale',
+    description: 'A commercial for cyber security brand highlighting their features provided to conpanies.',
   },
   {
     id: 2,
-    title: 'Product Showcase',
-    category: 'commercial',
-    thumbnail: 'https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?q=80&w=1600&auto=format&fit=crop',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-hands-holding-a-smart-watch-with-the-stopwatch-running-32808-large.mp4',
-    client: 'Tech Company',
-    description: 'A detailed showcase of the latest tech product with specifications and features.',
+    title: 'Cinematic',
+    category: 'cinematic',
+    thumbnail: 'https://i.ytimg.com/an_webp/9obOsk-PjCg/mqdefault_6s.webp?du=3000&sqp=CNiq-b4G&rs=AOn4CLBP0yzhMQ6NOZiG7vMXBRkUKyIwaw',
+    videoUrl: '/videos/ratomachindranath.mp4',
+    client: 'Classic Diamond',
+    description: 'A detailed showcase popular newari fesitval, Rato Machindranath, celebrated in nepal.',
   },
   {
     id: 3,
-    title: 'Travel Vlog',
-    category: 'youtube',
-    thumbnail: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1600&auto=format&fit=crop',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-traveling-on-the-road-near-the-sea-32809-large.mp4',
-    client: 'Travel Creator',
-    description: 'An engaging travel vlog featuring beautiful destinations and authentic experiences.',
+    title: '2D Animaion',
+    category: '2d animation',
+    thumbnail: 'https://i.ytimg.com/an_webp/1_An-6wIG9k/mqdefault_6s.webp?du=3000&sqp=CLTC-b4G&rs=AOn4CLDvaRErA3HTinRGBb7ZgQUK9YKC6A',
+    videoUrl: '/videos/OldTownLunchBox.mp4',
+    client: 'Old Town Foods',
+    description: 'Video promoting their corporate lunch box.',
   },
   {
     id: 4,
-    title: 'Corporate Overview',
-    category: 'corporate',
-    thumbnail: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=1600&auto=format&fit=crop',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-group-of-colleagues-in-an-office-meeting-33868-large.mp4',
-    client: 'Finance Firm',
+    title: 'Motion Design',
+    category: 'motion design',
+    thumbnail: 'https://i.ytimg.com/vi/a13M4B5A8A0/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGBMgTyh_MA8=&rs=AOn4CLB1t3Tub_Yc_56AyHK__PRPdK43rA',
+    videoUrl: '/videos/DiSkinSamacharpatiAd.mp4',
+    client: 'DI Skin Hospital & Refferal Center',
     description: 'A professional overview of a corporate organization showcasing their values and mission.',
   },
   {
     id: 5,
-    title: 'Fashion Reel',
-    category: 'social',
-    thumbnail: 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=1600&auto=format&fit=crop',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-fashion-model-with-a-cold-and-serious-look-39997-large.mp4',
-    client: 'Fashion Brand',
-    description: 'A trendy fashion reel created specifically for Instagram to showcase the latest collection.',
+    title: 'Reels',
+    category: 'Reels',
+    thumbnail: 'https://i.ytimg.com/vi/diW5U63u9fs/oar2.jpg?sqp=-oaymwEoCMAEENAFSFqQAgHyq4qpAxcIARUAAIhC2AEB4gEKCBgQAhgGOAFAAQ==&rs=AOn4CLDh63tN_llIubWHwJbMxOYvuqJgNA',
+    videoUrl: '/videos/Reel.mp4',
+    client: 'Marketing Funnel',
+    description: 'A trendy fashion reel created specifically for Instagram to showcase the marketing funnel.',
   },
   {
     id: 6,
-    title: 'Documentary Excerpt',
-    category: 'documentary',
-    thumbnail: 'https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    videoUrl: 'https://assets.mixkit.co/videos/preview/mixkit-close-view-of-a-pigeon-pecking-at-crumbs-of-bread-42906-large.mp4',
-    client: 'Independent Filmmaker',
-    description: 'A powerful excerpt from a documentary showcasing authentic human stories and emotions.',
+    title: 'Logo Animation',
+    category: 'logo animation',
+    thumbnail: 'https://i.ytimg.com/vi/dXlkQobXloc/hqdefault.jpg?sqp=-oaymwFBCNACELwBSFryq4qpAzMIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB8AEB-AH-CYAC0AWKAgwIABABGFogZSgdMA8=&rs=AOn4CLAxCRj63remOVZh9GAo3QIFoPYVUg',
+    videoUrl: '/videos/YourHostelLogoAnimation.mp4',
+    client: 'Your Hostel',
+    description: 'Logo Animation of your hostel, a webapp for hostel finder.',
   },
+
 ];
 
 const Portfolio = () => {
@@ -99,7 +100,7 @@ const Portfolio = () => {
         
         {/* Filter tabs */}
         <div className="flex flex-wrap justify-center gap-2 mb-12">
-          {['all', 'commercial', 'youtube', 'corporate', 'social', 'documentary'].map((filter) => (
+          {['all', 'commercial', 'cinematic', 'motion design', '2d animation', 'logo animation', 'reels', 'green screen', ].map((filter) => (
             <button
               key={filter}
               onClick={() => setActiveFilter(filter)}
